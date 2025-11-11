@@ -1,7 +1,7 @@
 
 ---
 
-# 4) `docs/01_Project_Overview.md` — paste now (Module A base)
+#  `docs/01_Project_Overview.md` 
 ```markdown
 # Project Overview
 
@@ -9,7 +9,7 @@
 AgriDrone Optimization — scaled demonstration sprayer
 
 ## Team
-- Mechanical / CAD: [Your Name] (remote)
+- Mechanical / CAD: sARFO KUSI_GH (remote)
 - Electronics & Simulation: assisted (AI templates + guidance)
 - Notes: Project demonstrates remote-ready digital twin + simulations.
 
