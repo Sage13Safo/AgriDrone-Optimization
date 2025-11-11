@@ -1,4 +1,4 @@
-# 🌾 AgriDrone Optimization (Hackathon 2025)
+# 🌾 AgriDrone Optimization (BRICS RUSSIA FUTURE SKILLS & TECH CHALLENGE UAS_Drones Hackathon 2025)
 
 **Scaled demo agricultural UAV sprayer** — optimized spray uniformity and low-drift deposition.  
 Tools: SolidWorks (Flow Simulation trial via AMP CAD), KeyShot, KiCAD, Python (NumPy/Matplotlib), Excel.
