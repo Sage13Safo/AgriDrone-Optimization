@@ -87,37 +87,3 @@ AgriDrone-Optimization/
     ├── references/
     └── templates/
 
-cd module_B_testing_simulation/simulation/python_model
-python spray_sim.py
-
-
-module_B_testing_simulation/simulation/python_model/results/
-
-
----
-
-## 🧱 STEP 4 — Commit and save
-1. Scroll down → **Commit changes**
-2. Message:  
-
-3. Click **Commit directly to main** (or create a new branch if you prefer).
-
----
-
-## 🧩 STEP 5 — Check your repo view
-Once you save, open your GitHub homepage.  
-You should now see:
-
-- A clean header with project intro  
-- A nice table of quick links  
-- The full directory tree rendered in monospace  
-- Status table showing progress by module  
-
-That README will act as your **front-page presentation** for the judges — it’s concise, professional, and mirrors the assessment structure.
-
----
-
-Would you like me to also prepare a **README “badge bar”** (colored shields showing progress %, tools used, and license) to display under the title? It can add polish and a few extra marks for presentation clarity.
-
-
-
