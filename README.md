@@ -49,10 +49,8 @@ Flow Rate Equation: Q=Cd​⋅A.sqr(2ΔP/)
 | 2.5                  | 4.91×10⁻⁶ | 2.73              | Optimal for 30 L/ha rate   |
 
 
-Q=Cd​⋅A⋅ρ2ΔP​
-​
 
----
+--
 ## CFD Simulation Overview
 ----
 
