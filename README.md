@@ -35,8 +35,25 @@ Renderings and ROI estimates complete the prototype demonstration.
 | Discharge coefficient    | Cₑ     | 0.7             | —     | Orifice efficiency             |
 | Fluid density            | ρ      | 1000            | kg/m³ | Water                          |
 
+
+
 ---
-##CFD Simulation Overview
+## Core Calculation
+
+Flow Rate Equation: Q=Cd​⋅A.sqr(2ΔP/)
+---
+| Nozzle Diameter (mm) | Area (m²) | Flow Rate (L/min) | Suitability                |
+| -------------------- | --------- | ----------------- | -------------------------- |
+| 0.5                  | 1.96×10⁻⁷ | 0.30              | Fine mist — micro spraying |
+| 1.5                  | 1.77×10⁻⁶ | 1.37              | Balanced coverage          |
+| 2.5                  | 4.91×10⁻⁶ | 2.73              | Optimal for 30 L/ha rate   |
+
+
+Q=Cd​⋅A⋅ρ2ΔP​
+​
+
+---
+## CFD Simulation Overview
 ----
 
 - **Software**: SolidWorks Flow Simulation
