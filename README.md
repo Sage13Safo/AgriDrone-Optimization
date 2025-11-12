@@ -24,7 +24,7 @@ Renderings and ROI estimates complete the prototype demonstration.
 -  **Prepare presentation visuals** with renders and animations.  
 
 ---
-## 📐 Design Basis
+##  Design Basis
 ---
 | Parameter                | Symbol | Value           | Unit  | Description                    |
 | ------------------------ | ------ | --------------- | ----- | ------------------------------ |
