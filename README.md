@@ -24,42 +24,58 @@ AgriDrone-Optimization/
 ├── README.md
 ├── LICENSE
 │
+├── docs/
+│   ├── README.md
+│   ├── ModuleA.md
+│   ├── ModuleB.md
+│   ├── ModuleC.md
+│   ├── ModuleD.md
+│   └── assets/
+│       ├── diagram_repo_structure.png
+│       └── hackathon_logo.png
+│
 ├── module_A_design_prototyping/
+│   ├── README.md
 │   ├── docs/
 │   │   ├── A1_Project_Brief.md
 │   │   ├── A2_Technical_Description.md
 │   │   ├── A3_BOM_and_Roles.md
 │   │   └── ModuleA_Deliverable.pdf
 │   ├── design/
-│   │   ├── CAD_Files/
-│   │   ├── Drawings/
-│   │   ├── Renders/
+│   │   ├── CAD_Files/.gitkeep
+│   │   ├── Drawings/.gitkeep
+│   │   ├── Renders/.gitkeep
 │   │   └── mass_properties.txt
 │   ├── electronics/
-│   │   ├── schematics/
+│   │   ├── schematics/.gitkeep
 │   │   ├── BOM.csv
 │   │   └── pump_driver_netlist.txt
 │   └── deliverables/
 │       └── ModuleA_Deliverable.pdf
 │
 ├── module_B_testing_simulation/
+│   ├── README.md
 │   ├── docs/
 │   │   ├── B1_Test_Plan.md
 │   │   ├── B2_Simulation_Procedure.md
-│   │   └── B3_Test_Report.md
+│   │   ├── B3_Test_Report.md
+│   │   └── ModuleB_Testing_Report.pdf
 │   ├── simulation/
 │   │   ├── python_model/
 │   │   │   ├── spray_sim.py
-│   │   │   └── results/
+│   │   │   └── results/.gitkeep
 │   │   └── solidworks_flow/
-│   │       └── README.md
+│   │       ├── README.md
+│   │       └── case_files/.gitkeep
 │   └── deliverables/
 │       └── ModuleB_Testing_Report.pdf
 │
 ├── module_C_economic_efficiency/
+│   ├── README.md
 │   ├── docs/
 │   │   ├── C1_Cost_Assumptions.md
-│   │   └── C2_ROI_Calculations.md
+│   │   ├── C2_ROI_Calculations.md
+│   │   └── ModuleC_Deliverable.pdf
 │   ├── economics/
 │   │   ├── ROI_Model.xlsx
 │   │   └── Cost_Table.csv
@@ -67,10 +83,12 @@ AgriDrone-Optimization/
 │       └── ModuleC_Deliverable.pdf
 │
 ├── module_D_presentation_defense/
+│   ├── README.md
 │   ├── docs/
 │   │   ├── D1_Slide_Content.md
 │   │   ├── D2_Pitch_Scripts.md
-│   │   └── D3_QA_Preparation.md
+│   │   ├── D3_QA_Preparation.md
+│   │   └── ModuleD_Presentation_Package.zip
 │   ├── presentation/
 │   │   ├── slides.pptx
 │   │   ├── slides.pdf
@@ -84,6 +102,15 @@ AgriDrone-Optimization/
 │       └── ModuleD_Presentation_Package.zip
 │
 └── supporting_files/
+    ├── README.md
     ├── references/
+    │   ├── related_papers.md
+    │   ├── datasheets/
+    │   │   ├── pump_module.pdf
+    │   │   └── nozzle_specs.pdf
+    │   └── design_notes.txt
     └── templates/
+        ├── report_template.md
+        ├── slide_template.pptx
+        └── presentation_script_template.md
 
