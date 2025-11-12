@@ -35,6 +35,19 @@ Renderings and ROI estimates complete the prototype demonstration.
 | Discharge coefficient    | Cₑ     | 0.7             | —     | Orifice efficiency             |
 | Fluid density            | ρ      | 1000            | kg/m³ | Water                          |
 
+
+---
+## Acknowledgments
+-SolidWorks Flow Simulation (AMP CAD South Africa – Educational License)
+
+-Python Libraries: NumPy, Matplotlib
+
+-Developed by: Solo Participant — AgriDrone Optimization 2025
+
+---
+
+
+
 ---
 ## 🧩 Repository Structure  
 
