@@ -45,6 +45,10 @@ Renderings and ROI estimates complete the prototype demonstration.
 - **Developed by**: Solo Participant — AgriDrone Optimization 2025
 
 ---
+## Author
+- Name: [Your Full Name]
+- Role: Solo Participant, BRICS Future Skills Challenge 2025
+- Email: 
 
 
 
