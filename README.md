@@ -1,116 +1,50 @@
 # 🌾 AgriDrone Optimization  
-*(BRICS RUSSIA FUTURE SKILLS & TECH CHALLENGE — UAS_Drones Hackathon 2025)*
-
-**Scaled demonstration agricultural UAV sprayer** — optimized spray uniformity and low-drift deposition.  
-Tools: **SolidWorks (Flow Simulation trial via AMP CAD)** • KeyShot • KiCAD • Python (NumPy + Matplotlib) • Excel.
+**Solo UAV Sprayer Design, Simulation & ROI Analysis**  
+*BRICS Future Skills & Tech Challenge — 2025*  
 
 ---
 
-## 🚀 Quick Links
-| Module | Purpose | Folder |
-|---------|----------|---------|
-| **Module A — Design & Prototyping** | CAD, BOM, technical description | [`module_A_design_prototyping/`](module_A_design_prototyping/) |
-| **Module B — Testing & Simulation** | SolidWorks CFD + Python validation | [`module_B_testing_simulation/`](module_B_testing_simulation/) |
-| **Module C — Economic Efficiency** | ROI model & cost analysis | [`module_C_economic_efficiency/`](module_C_economic_efficiency/) |
-| **Module D — Presentation & Defense** | Slides + scripts + demo video | [`module_D_presentation_defense/`](module_D_presentation_defense/) |
-| **Supporting Files** | References + templates | [`supporting_files/`](supporting_files/) |
+## 🧭 Project Summary  
+
+This project demonstrates the **design and computational analysis** of a small unmanned aerial vehicle (UAV)–based agricultural sprayer system.  
+Developed by a **solo participant**, the system focuses on **nozzle optimization**, **spray uniformity**, and **cost efficiency** for small-scale farm use.  
+
+The workflow combines **engineering calculations**, **3D CAD modeling**, and **flow simulations** in SolidWorks — supported by **Python scripts** for predicting droplet and flow behaviors.  
+Renderings and ROI estimates complete the prototype demonstration.
 
 ---
 
-## 🧩 Repository Structure
+## ⚙️ Core Goals  
+
+- 🧮 **Derive and justify nozzle parameters** using fluid mechanics equations.  
+- 🧰 **Model three nozzle variants** (0.5 mm, 1.5 mm, 2.5 mm orifice) using SolidWorks.  
+- 🌊 **Run CFD simulations** to visualize droplet velocity and pressure distribution.  
+- 🐍 **Use Python** for analytical prediction of flow behavior and spray coverage.  
+- 💸 **Estimate economic efficiency** using ROI and cost models.  
+- 🎥 **Prepare presentation visuals** with renders and animations.  
+
+---
+
+## 🧩 Repository Structure  
 
 ```text
 AgriDrone-Optimization/
-├── README.md
-├── LICENSE
 │
-├── docs/
-│   ├── README.md
-│   ├── ModuleA.md
-│   ├── ModuleB.md
-│   ├── ModuleC.md
-│   ├── ModuleD.md
-│   └── assets/
-│       ├── diagram_repo_structure.png
-│       └── hackathon_logo.png
+├── README.md                 ← Full project overview (this file)
 │
-├── module_A_design_prototyping/
-│   ├── README.md
-│   ├── docs/
-│   │   ├── A1_Project_Brief.md
-│   │   ├── A2_Technical_Description.md
-│   │   ├── A3_BOM_and_Roles.md
-│   │   └── ModuleA_Deliverable.pdf
-│   ├── design/
-│   │   ├── CAD_Files/.gitkeep
-│   │   ├── Drawings/.gitkeep
-│   │   ├── Renders/.gitkeep
-│   │   └── mass_properties.txt
-│   ├── electronics/
-│   │   ├── schematics/.gitkeep
-│   │   ├── BOM.csv
-│   │   └── pump_driver_netlist.txt
-│   └── deliverables/
-│       └── ModuleA_Deliverable.pdf
-│
-├── module_B_testing_simulation/
-│   ├── README.md
-│   ├── docs/
-│   │   ├── B1_Test_Plan.md
-│   │   ├── B2_Simulation_Procedure.md
-│   │   ├── B3_Test_Report.md
-│   │   └── ModuleB_Testing_Report.pdf
-│   ├── simulation/
-│   │   ├── python_model/
-│   │   │   ├── spray_sim.py
-│   │   │   └── results/.gitkeep
-│   │   └── solidworks_flow/
-│   │       ├── README.md
-│   │       └── case_files/.gitkeep
-│   └── deliverables/
-│       └── ModuleB_Testing_Report.pdf
-│
-├── module_C_economic_efficiency/
-│   ├── README.md
-│   ├── docs/
-│   │   ├── C1_Cost_Assumptions.md
-│   │   ├── C2_ROI_Calculations.md
-│   │   └── ModuleC_Deliverable.pdf
-│   ├── economics/
-│   │   ├── ROI_Model.xlsx
-│   │   └── Cost_Table.csv
-│   └── deliverables/
-│       └── ModuleC_Deliverable.pdf
-│
-├── module_D_presentation_defense/
-│   ├── README.md
-│   ├── docs/
-│   │   ├── D1_Slide_Content.md
-│   │   ├── D2_Pitch_Scripts.md
-│   │   ├── D3_QA_Preparation.md
-│   │   └── ModuleD_Presentation_Package.zip
-│   ├── presentation/
-│   │   ├── slides.pptx
-│   │   ├── slides.pdf
-│   │   ├── demo_video.mp4
-│   │   └── figures/
-│   │       ├── flow_vs_python.png
-│   │       ├── roi_chart.png
-│   │       ├── drone_render.png
-│   │       └── uniformity_heatmap.png
-│   └── deliverables/
-│       └── ModuleD_Presentation_Package.zip
-│
-└── supporting_files/
-    ├── README.md
-    ├── references/
-    │   ├── related_papers.md
-    │   ├── datasheets/
-    │   │   ├── pump_module.pdf
-    │   │   └── nozzle_specs.pdf
-    │   └── design_notes.txt
-    └── templates/
-        ├── report_template.md
-        ├── slide_template.pptx
-        └── presentation_script_template.md
-
+└── docs/
+    ├── ModuleA/              ← Design & Prototyping
+    │   ├── ModuleA.md
+    │   └── (SolidWorks models, renders, drawings)
+    │
+    ├── ModuleB/              ← Testing & Simulation
+    │   ├── ModuleB.md
+    │   └── (FlowSim screenshots, Python outputs)
+    │
+    ├── ModuleC/              ← Economic Efficiency
+    │   ├── ModuleC.md
+    │   └── (ROI scripts, cost tables, charts)
+    │
+    └── ModuleD/              ← Presentation & Defense
+        ├── ModuleD.md
+        └── (slides, animations, report)
