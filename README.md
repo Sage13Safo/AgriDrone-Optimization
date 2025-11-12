@@ -38,11 +38,11 @@ Renderings and ROI estimates complete the prototype demonstration.
 
 ---
 ## Acknowledgments
--SolidWorks Flow Simulation (AMP CAD South Africa – Educational License)
+-**SolidWorks Flow Simulation (AMP CAD South Africa – Educational License)
 
--Python Libraries: NumPy, Matplotlib
+-**Python Libraries: NumPy, Matplotlib
 
--Developed by: Solo Participant — AgriDrone Optimization 2025
+-**Developed by: Solo Participant — AgriDrone Optimization 2025
 
 ---
 
