@@ -1,10 +1,10 @@
-# 🌾 AgriDrone Optimization  
+#  AgriDrone Optimization  
 **Solo UAV Sprayer Design, Simulation & ROI Analysis**  
 *BRICS Future Skills & Tech Challenge — 2025*  
 
 ---
 
-## 🧭 Project Summary  
+##  Project Summary  
 
 This project demonstrates the **design and computational analysis** of a small unmanned aerial vehicle (UAV)–based agricultural sprayer system.  
 Developed by a **solo participant**, the system focuses on **nozzle optimization**, **spray uniformity**, and **cost efficiency** for small-scale farm use.  
@@ -14,14 +14,14 @@ Renderings and ROI estimates complete the prototype demonstration.
 
 ---
 
-## ⚙️ Core Goals  
+##  Core Goals  
 
-- 🧮 **Derive and justify nozzle parameters** using fluid mechanics equations.  
-- 🧰 **Model three nozzle variants** (0.5 mm, 1.5 mm, 2.5 mm orifice) using SolidWorks.  
-- 🌊 **Run CFD simulations** to visualize droplet velocity and pressure distribution.  
-- 🐍 **Use Python** for analytical prediction of flow behavior and spray coverage.  
-- 💸 **Estimate economic efficiency** using ROI and cost models.  
-- 🎥 **Prepare presentation visuals** with renders and animations.  
+-  **Derive and justify nozzle parameters** using fluid mechanics equations.  
+-  **Model three nozzle variants** (0.5 mm, 1.5 mm, 2.5 mm orifice) using SolidWorks.  
+-  **Run CFD simulations** to visualize droplet velocity and pressure distribution.  
+-  **Use Python** for analytical prediction of flow behavior and spray coverage.  
+-  **Estimate economic efficiency** using ROI and cost models.  
+-  **Prepare presentation visuals** with renders and animations.  
 
 ---
 ## 📐 Design Basis
@@ -35,6 +35,27 @@ Renderings and ROI estimates complete the prototype demonstration.
 | Discharge coefficient    | Cₑ     | 0.7             | —     | Orifice efficiency             |
 | Fluid density            | ρ      | 1000            | kg/m³ | Water                          |
 
+---
+##CFD Simulation Overview
+----
+
+- **Software**: SolidWorks Flow Simulation
+
+- **Type**: Internal fluid flow with air domain enclosure
+
+## Boundary conditions:
+
+- Inlet pressure = 3×10⁵ Pa
+
+- Outlet = atmospheric
+
+- Injection: Water droplets, 100–200 μm
+
+- Visualization: Velocity & pressure contours, heatmap plots, streamline animation
+
+
+
+
 
 ---
 ## Acknowledgments
@@ -43,6 +64,18 @@ Renderings and ROI estimates complete the prototype demonstration.
 - **Python Libraries**: NumPy, Matplotlib
 
 - **Developed by**: Solo Participant — AgriDrone Optimization 2025
+
+---
+## Future Extensions
+---
+
+- Integration of pump-electronic control system (KiCAD or Fritzing diagram)
+
+- Payload and motor selection optimization
+
+- AI-based spray path planning
+
+- Onboard camera for field pattern mapping
 
 ---
 ## Author
@@ -54,7 +87,7 @@ Renderings and ROI estimates complete the prototype demonstration.
 
 
 ---
-## 🧩 Repository Structure  
+##  Repository Structure  
 
 ```text
 AgriDrone-Optimization/
