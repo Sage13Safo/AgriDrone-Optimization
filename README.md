@@ -38,7 +38,7 @@ Renderings and ROI estimates complete the prototype demonstration.
 
 ---
 ## Acknowledgments
-- **SolidWorks Flow Simulation** (AMP CAD South Africa – Educational License)
+- **SolidWorks Flow Simulation 7-Day TrialLicense** AMP CAD/CAM Solutions (Pty) Ltd, South Africa – Educational License) **Dassualt Systemes SOLIDWORKS Reseller**
 
 - **Python Libraries**: NumPy, Matplotlib
 
