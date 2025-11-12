@@ -25,26 +25,41 @@ Renderings and ROI estimates complete the prototype demonstration.
 
 ---
 
+---
+| Parameter                | Symbol | Value           | Unit  | Description                    |
+| ------------------------ | ------ | --------------- | ----- | ------------------------------ |
+| Nozzle orifice diameters | d      | 0.5 / 1.5 / 2.5 | mm    | Three variants for comparison  |
+| Drone altitude           | h      | 4               | m     | Above target surface           |
+| Flow rate target         | Q      | 2.7             | L/min | Desired for 30 L/ha spray rate |
+| Pressure differential    | ΔP     | 3×10⁵           | Pa    | Typical small pump             |
+| Discharge coefficient    | Cₑ     | 0.7             | —     | Orifice efficiency             |
+| Fluid density            | ρ      | 1000            | kg/m³ | Water                          |
+
+---
 ## 🧩 Repository Structure  
 
 ```text
 AgriDrone-Optimization/
 │
-├── README.md                 ← Full project overview (this file)
-│
+├── README.md
 └── docs/
-    ├── ModuleA/              ← Design & Prototyping
+    ├── ModuleA/
     │   ├── ModuleA.md
-    │   └── (SolidWorks models, renders, drawings)
+    │   ├── nozzle_variants/
+    │   ├── renders/
+    │   └── drawings/
     │
-    ├── ModuleB/              ← Testing & Simulation
+    ├── ModuleB/
     │   ├── ModuleB.md
-    │   └── (FlowSim screenshots, Python outputs)
+    │   ├── flow_sim/
+    │   └── python_model/
     │
-    ├── ModuleC/              ← Economic Efficiency
+    ├── ModuleC/
     │   ├── ModuleC.md
-    │   └── (ROI scripts, cost tables, charts)
+    │   ├── roi_model.py
+    │   └── charts/
     │
-    └── ModuleD/              ← Presentation & Defense
+    └── ModuleD/
         ├── ModuleD.md
-        └── (slides, animations, report)
+        ├── slides/
+        └── video/
