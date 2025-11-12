@@ -46,9 +46,10 @@ Renderings and ROI estimates complete the prototype demonstration.
 
 ---
 ## Author
-- Name: [Your Full Name]
-- Role: Solo Participant, BRICS Future Skills Challenge 2025
-- Email: 
+- **Name**: Sarfo Kusi
+- **Role**: Solo Participant, BRICS Future Skills Challenge UAS 2025
+- **Email**: dokwas13africa@gmail.com
+- **Telephone/Telegran**: +233249213044/ @sage_13_safo
 
 
 
