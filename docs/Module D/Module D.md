@@ -43,23 +43,23 @@ Also export as `/module_D_presentation_defense/presentation/slides.pdf`
 
 ## 4. Speaking Script  
 
-### 🎬 Opening (30s)
+### 🎬 Opening 
 > “Good day everyone, I’m Sage13 Safo, and this is my project *AgriDrone Optimization*.  
 It focuses on improving spray efficiency and reducing chemical waste in precision agriculture through a computationally validated nozzle design.”
 
-### 🧩 Design & Justification (45s)
+### 🧩 Design & Justification 
 > “I began with a parametric design of three nozzle variants — 0.5 mm, 1.5 mm, and 2.5 mm.  
 After evaluating performance targets, a 2.13 mm orifice diameter was selected for optimal balance between flow rate and droplet stability.”
 
-### 🌬️ CFD & Python Validation (60s)
+### 🌬️  CFD & Python Validation 
 > “The SolidWorks Flow Simulation demonstrated stable internal velocity and low-pressure loss at the exit.  
 Python validation confirmed the theoretical flow rate of 2.7 L/min and droplet fall trajectory consistent with CFD predictions.”
 
-### 💰 Economic Impact (45s)
+### 💰 Economic Impact 
 > “Economically, this system offers an ROI exceeding 600% within the first operational year for medium-scale farms,  
 making it a sustainable and scalable investment for precision agriculture operations.”
 
-### 🚀 Future Work & Conclusion (30s)
+### 🚀 Future Work & Conclusion 
 > “In future, I aim to integrate real-time sensor feedback for adaptive spray control.  
 This will make agricultural UAVs smarter, faster, and more efficient.”
 
@@ -76,31 +76,13 @@ This will make agricultural UAVs smarter, faster, and more efficient.”
 
 ---
 
-## 6. Project Defense Checklist  
-
-| Task | Status | Notes |
-|------|---------|-------|
-| Slides ready (10–12 max) | 🟢 | Keep under 5 minutes |
-| Renders and visuals placed | 🟢 | From Module A and B |
-| CFD report summarized | 🟢 | 1–2 slides |
-| ROI chart inserted | 🟢 | From Module C Excel |
-| Speaking script practiced | 🕓 | Aim for clear pacing |
-| Backup demo video | 🟢 | Optional if animation lags |
 
 ---
 
-## 7. Deliverables  
-
-| Item | Description | File Path |
-|------|--------------|-----------|
-| PowerPoint Slides | Main presentation | `/module_D_presentation_defense/presentation/slides.pptx` |
-| PDF Export | Printable backup | `/module_D_presentation_defense/presentation/slides.pdf` |
-| Demo Video | KeyShot or SolidWorks animation | `/module_D_presentation_defense/presentation/demo_video.mp4` |
-| Module Report | Summary + script | `/module_D_presentation_defense/deliverables/ModuleD_Presentation_Package.zip` |
 
 ---
 
-## 8. Closing Remark  
+## 6. Closing Remark  
 
 > “From concept to simulation, from numbers to visuals — this project shows that innovation in agriculture begins with understanding the physics behind every droplet.” 🌱
 
